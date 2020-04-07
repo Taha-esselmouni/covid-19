@@ -1,0 +1,109 @@
+@import 'variables';
+
+
+
+.recommandations{
+ background-color: $color-primary;
+ height: 408px;
+
+ &__title{
+    color:$footer-color;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+&__para{
+    display: inline;
+    margin-left: 203px;
+    color: $footer-color;
+    font-size: 24px; 
+}
+&__appelez{
+    color: $color-secondary;
+    font-size: 24px;
+    font-weight: 700;
+    float: right;
+    margin-right:183px;
+    margin-top: 1px;
+}
+&__wrapper{
+    margin: 10px 120px;
+        display: grid;
+        grid-template-columns: 90% 10%;
+        grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66%; 
+}
+&__wrapper p{
+    color: $footer-color ;
+    font-weight: 700;
+}
+
+&__wrapper--rec1{
+grid-area: 1/1;
+}
+&__wrapper--rec2{
+  grid-area: 2/1;  
+    
+}
+&__wrapper--rec3{
+    grid-area: 3/1;
+    
+}
+&__wrapper--rec4{
+    grid-area: 4/1;
+    
+}
+&__wrapper--rec5{
+    grid-area: 5/1;
+    
+}
+&__wrapper--num1{
+    grid-area: 1/2;
+    background-color: $color-secondary;
+    width: 200px;
+    height: 40px;
+    margin-left: -86px;
+    text-align: center;
+        
+}
+&__wrapper--pr1{
+    font-size: 25px;
+    color: $color-primary;
+
+}
+&__wrapper--num2{
+    grid-area: 3/2;
+    background-color: $color-secondary;
+        width: 200px;
+        height: 40px;
+        margin-left: -86px;
+        text-align: center;
+        
+}
+&__wrapper--pr2{
+    font-size: 25px;
+    color: $color-primary;
+}
+&__wrapper--num3{
+
+    grid-area: 5/2;
+    background-color: $color-secondary;
+        width: 200px;
+        height: 40px;
+        margin-left: -86px;
+        text-align: center;
+        
+}
+&__wrapper--pr3{
+    font-size: 25px;
+    color: $color-primary;
+}
+
+}
+
+
+.attention{
+    color: $color-secondary;
+    font-size: 27px;
+    padding-right:9px;
+}

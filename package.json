@@ -1,0 +1,26 @@
+{
+  "name": "c2n3_c3n3-master",
+  "version": "1.0.0",
+  "description": "## Contexte pédagogique  👋",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "gulp-sass": "^4.0.2",
+    "gulp": "^4.0.2",
+    "node-sass": "^4.13.1",
+    "node": "^13.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    
+      "watch": "node-sass sass/fichier.scss css/style.css --watch",
+      "compile": "node-sass sass/fichier.scss css/style.comp.css",
+      "concat": "concat -o css/style.concat.css css/addhothat.css css/style.comp.css",
+      "prefix": "postcss --use autoprefix -b 'last 5 versions' css/style.concat.css -o css/style.prefix.css",
+      "compress": "node-sass css/style.concat.css css/style.css --output-style compressed",
+      "build": "npm-run-all compile concat prefix compress"
+  
+      },
+  "author": "",
+  "license": "ISC"
+}

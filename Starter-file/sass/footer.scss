@@ -1,0 +1,86 @@
+.footer{
+    &__wrapper{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+    
+    }
+    &__logo {
+        display: block;
+        margin: 20px auto;
+    }
+    
+    &__left--title {
+        color: $color-primary;
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 40%;
+        margin-bottom: 2%;
+    }
+    &__left--para {
+        font-weight: 700;
+        margin-left: 24%;
+    
+    }
+    &__left--para1 {
+        font-weight: 700;
+        margin-left: 29%;
+    
+    }
+    &__left--num {
+        font-size: 20px;
+        color: $color-ver;
+        font-weight: 700;
+        margin-left: 37%;
+    }
+    &__left--num1 {
+        font-size: 20px;
+        color: $color-ver;
+        font-weight: 700;
+        margin-left: 43%;
+    }
+    &__left--num2 {
+        font-size: 20px;
+        color: $color-ver;
+        font-weight: 700;
+        margin-left: 43%;
+        padding-bottom: 7%;
+    }
+    
+    
+    &__right--list {
+        font-size: 22px;
+        margin-top: 9%;
+        margin-left: 7%;
+    }
+    &__right--acceuil {
+        text-align: center;
+        font-weight: bold;
+        border-bottom: 1px solid $color-accent;
+        width: 30rem;
+        padding-bottom: .1rem;
+        
+    }
+    &__right--conseils{
+        text-align: center;
+        border-bottom: 1px solid $color-accent;
+        padding-bottom: .1rem;
+        width: 30rem;
+    }
+    
+    }
+    .acc{
+        color: $color-primary;
+        font-weight: 700;
+    }
+    
+    .con{
+        color: $color-dark;
+        font-weight: 700;
+    }
+    .bottom-footer{
+        background-color: $color-primary;
+        width: 100%;
+        height: 35px;
+        position: relative;
+    }

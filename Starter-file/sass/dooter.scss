@@ -1,0 +1,25 @@
+
+.Footer1{
+    background-color: $color-accent;
+    margin-top: -10px;
+    padding-bottom: 20px;
+    &__title{
+        padding-top: 20px;
+        color:$color-primary;
+        text-align: center;
+        font-size: 29px;
+    }
+    &__emoji{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    &__button{
+        width: 38%;
+        margin-top: 3px;
+        font-weight: bold;
+       
+    }
+}
