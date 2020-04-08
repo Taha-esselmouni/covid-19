@@ -131,7 +131,7 @@ button {
   color: #1078AD;
   padding: 8px 184px;
   border: 2px solid #1078AD;
-  border-radius: 5px;
+  
   text-align: center;
   text-decoration: none;
  
@@ -499,10 +499,17 @@ button {
 .lang{
  
     
-  font-weight: bold;
-  margin: 2%;
-  margin-left: 46%;
+  font-weight: 800;
+  margin: 1%;
+  margin-left: 34%;
+  display: block;
+  border-radius: 5px;
+  width: 35%;
   
+  color: #1078AD;
+  padding: 1px 18px;
+  border: 1px solid #1078AD;
     height: 45px;
 
 } 
+
